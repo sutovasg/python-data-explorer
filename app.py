@@ -6,8 +6,8 @@ import plotly.express as px
 # Page configuration
 # ----------------------------
 st.set_page_config(
-    page_title="Python Data Explorer",
-    page_icon="📊",
+page_title="InsightLab",
+page_icon=":material/monitoring:",
     layout="wide"
 )
 
@@ -154,8 +154,9 @@ if df.empty:
 # ----------------------------
 st.markdown(f"""
 <div class="hero">
-    <div class="hero-title">📊 Python Data Explorer</div>
-    <p class="hero-subtitle">
+<div class="hero-title">
+    <span style="color: #2dd4bf; margin-right: 10px;">◆</span>InsightLab
+</div>
         Explore business data, visualise trends, and surface quick insights in a clean, professional dashboard.
     </p>
 </div>
